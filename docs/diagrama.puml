@@ -51,13 +51,13 @@ Birdie --|> Personaje
 Bison --|> Personaje
 Dhalsim --|> Personaje
 
-Personaje *-- MedidorDeVitalidad
-Personaje *-- BarraDeEstadoDeConmoción
-Personaje *-- EmblemasDeVictoria
-Personaje *-- ContadorDeTiempo
-Personaje *-- IconoDePersonaje
-Personaje *-- BarraSuperCombo
-Personaje *-- Menu
+Personaje *-- "1" MedidorDeVitalidad
+Personaje *-- "1" BarraDeEstadoDeConmoción
+Personaje *-- "1..*" EmblemasDeVictoria
+Personaje *-- "1" ContadorDeTiempo
+Personaje *-- "1" IconoDePersonaje
+Personaje *-- "1" BarraSuperCombo
+Personaje *-- "1" Menu
 
 Hadoken --|> Arma
 Cuchillas --|> Arma
@@ -66,12 +66,10 @@ Fuego --|> Arma
 Silla --|> Arma
 Magia --|> Arma
 
-Ken o-- Hadoken
-Vega o-- Cuchillas
-Birdie o-- Lata
-Ryu o-- Fuego
-Mika o-- Silla
-Bison o-- Magia
-
-@enduml 
-
+Ken o-- "0..1" Hadoken
+Vega o-- "0..1" Cuchillas
+Birdie o-- "0..1" Lata
+Ryu o-- "0..1" Fuego
+Mika o-- "0..1" Silla
+Bison o-- "0..1" Magia
+@enduml
