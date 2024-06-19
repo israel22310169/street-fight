@@ -4,7 +4,6 @@
 #include <Ken.hpp>
 
 
-
 double velocidad = 0.1;
 
 int main()
