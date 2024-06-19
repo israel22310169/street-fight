@@ -6,20 +6,18 @@ Street Fighter (SFML) es un proyecto de juego de lucha básico desarrollado con 
 ## Instalación
 Para ejecutar este proyecto, sigue los siguientes pasos:
 
-## Instalar SFML:
+1. Instalar SFML:
+- Asegúrate de tener SFML instalado en tu sistema. Puedes descargar SFML desde sfml-dev.org y seguir las instrucciones de instalación según tu sistema operativo.
 
-Asegúrate de tener SFML instalado en tu sistema. Puedes descargar SFML desde sfml-dev.org y seguir las instrucciones de instalación según tu sistema operativo.
-Clonar el Repositorio:
+2. Clonar el Repositorio:
+- Clona este repositorio en tu máquina local:
 
-Clona este repositorio en tu máquina local:
-bash
-Copiar código
 git clone https://github.com/tuusuario/street-fighter-sfml.git
-Compilar y Ejecutar:
 
-Abre el proyecto en tu IDE preferido que soporte C++ y SFML (como Visual Studio, Code::Blocks, etc.).
-Configura el proyecto para que enlace con las bibliotecas SFML y compílalo.
-Ejecuta el juego desde el IDE o desde la línea de comandos.
+3. Compilar y Ejecutar:
+- Abre el proyecto en tu IDE preferido que soporte C++ y SFML (como Visual Studio, Code::Blocks, etc.).
+- Configura el proyecto para que enlace con las bibliotecas SFML y compílalo.
+- Ejecuta el juego desde el IDE o desde la línea de comandos.
 
 ## Controles
 - Ryu:
