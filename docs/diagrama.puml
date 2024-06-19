@@ -1,0 +1,77 @@
+@startuml
+
+Class Ryu
+Class ChunLi
+Class Ken
+Class Zangief
+Class Mika
+Class Vega
+Class Birdie
+Class Bison
+Class Dhalsim
+
+Class MedidorDeVitalidad
+Class BarraDeEstadoDeConmoción
+Class EmblemasDeVictoria
+Class ContadorDeTiempo
+Class IconoDePersonaje
+Class BarraSuperCombo
+
+Class Hadoken
+Class Cuchillas
+Class Lata
+Class Fuego
+Class Silla
+Class Magia
+
+Class Arma
+Class Personaje{
+    +Kick
+    +Punch
+    +MoveRight
+    +MoveLeft
+    +MoveDown
+    +MoveUp
+}
+Class Menu{
+    +Pausar
+    +ConfiguracionDeVideo
+    +ConfiguracionDeAudio
+    +ListaDeCombinaciones
+    +Salir
+}
+
+Ryu --|> Personaje
+ChunLi --|> Personaje
+Ken --|> Personaje
+Zangief --|> Personaje
+Mika --|> Personaje
+Vega --|> Personaje
+Birdie --|> Personaje
+Bison --|> Personaje
+Dhalsim --|> Personaje
+
+Personaje *-- MedidorDeVitalidad
+Personaje *-- BarraDeEstadoDeConmoción
+Personaje *-- EmblemasDeVictoria
+Personaje *-- ContadorDeTiempo
+Personaje *-- IconoDePersonaje
+Personaje *-- BarraSuperCombo
+Personaje *-- Menu
+
+Hadoken --|> Arma
+Cuchillas --|> Arma
+Lata --|> Arma
+Fuego --|> Arma
+Silla --|> Arma
+Magia --|> Arma
+
+Ken o-- Hadoken
+Vega o-- Cuchillas
+Birdie o-- Lata
+Ryu o-- Fuego
+Mika o-- Silla
+Bison o-- Magia
+
+@enduml 
+
