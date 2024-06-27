@@ -36,5 +36,5 @@ git clone https://github.com/tuusuario/street-fighter-sfml.git
 ![alt text](image-1.png)
 
 ## Créditos
-Este proyecto fue desarrollado por Abraham Israel Arciga Morales. Utiliza la biblioteca SFML para la representación gráfica y de sonido.
+Este proyecto fue desarrollado por Aldo Misael Osuna Y Arantza Lia sa Abraham Israel Arciga Morales. Utiliza la biblioteca SFML para la representación gráfica y de sonido.
 
