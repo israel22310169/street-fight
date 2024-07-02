@@ -1,4 +1,4 @@
-class Zangief
+class Zangief 
 {
 private:
     /* data */

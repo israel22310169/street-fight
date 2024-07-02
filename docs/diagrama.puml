@@ -66,7 +66,7 @@ Fuego --|> Arma
 Silla --|> Arma
 Magia --|> Arma
 
-Ken o-- "0..1" Hadoken
+Ken o-- "1" Hadoken
 Vega o-- "0..1" Cuchillas
 Birdie o-- "0..1" Lata
 Ryu o-- "0..1" Fuego

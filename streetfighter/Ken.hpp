@@ -65,7 +65,7 @@ private:
     sf::Sprite sprite;
     sf::Texture texture;
     sf::Clock clock;
-    float frameTime = 0.1f; /
+    float frameTime = 0.1f; 
     int currentFrame = 0;
     int numFrames = 9; 
     int frameWidth = 32;

@@ -5,7 +5,7 @@ int main() {
     HealthBar ryuHealthBar(200, 20, sf::Color::Red, sf::Color::Black);
     ryuHealthBar.setPosition(50, 50);
 
-    HealthBar kenHealthBar(200, 20, sf::Color::Blue, sf::Color::Black);
+    HealthBar kenHealthBar(200, 20, sf::Color::green, sf::Color::Black);
     kenHealthBar.setPosition(550, 50);
 
     while (window.isOpen()) {

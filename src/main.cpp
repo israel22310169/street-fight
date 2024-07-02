@@ -11,10 +11,10 @@ int main()
 {
     sf::RenderWindow ventana(sf::VideoMode(800, 600), "Street Fighter");
 
-    Ryu ryu(sf::Vector2f(200, 400), sf::Color::Red);
+    Ryu ryu(sf::Vector2f(200, 400), sf::Color::Green);
     Ken ken(sf::Vector2f(600, 400), sf::Color::Blue);
 
-    MedidorDeVitalidad medidorRyu(200, 20, sf::Color::Red, sf::Color::Black);
+    MedidorDeVitalidad medidorRyu(200, 20, sf::Color::Green, sf::Color::Black);
     medidorRyu.setPosition(50, 50);
 
     MedidorDeVitalidad medidorKen(200, 20, sf::Color::Blue, sf::Color::Black);

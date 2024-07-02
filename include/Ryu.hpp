@@ -65,7 +65,7 @@ private:
     sf::Sprite sprite;
     sf::Texture texture;
     sf::Clock clock;
-    float frameTime = 0.1f; // Tiempo entre cada frame en segundos
+    float frameTime = 0.1f; 
     int currentFrame = 0;
     int numFrames = 4; // Número total de frames en la animación
     int frameWidth = 32;
