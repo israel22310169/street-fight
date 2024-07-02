@@ -2,7 +2,7 @@
 ![alt text](image.png)
 
 ## Arciga Morales Abraham Israel 22310169
-!(Gameplay GIF)(assets/images/street-f.ogg)
+(<video controls src="assets/images/street-f.ogg" title="street-f.ogg"></video>)
 
 ## Descripción
 Street Fighter (SFML) es un proyecto de juego de lucha básico desarrollado con la biblioteca SFML (Simple and Fast Multimedia Library). Este programa permite a los jugadores controlar dos personajes, Ryu y Ken, moverse por una ventana de juego y disfrutar de música de fondo mientras exploran el entorno.
