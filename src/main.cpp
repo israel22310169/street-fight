@@ -59,7 +59,7 @@ int main()
                 ventana.close();
             }
 
-            // Ejemplo básico de ataques al presionar teclas
+            
             if (evento.type == sf::Event::KeyPressed) {
                 if (evento.key.code == sf::Keyboard::R) {
                     ken.receiveDamage(damageAmount);
@@ -70,7 +70,7 @@ int main()
             }
         }
 
-        // Lógica de movimiento y actualización de los personajes Ryu y Ken
+        
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
             ryu.move(velocidad * -1, 0);
         }
@@ -101,11 +101,11 @@ int main()
         ken.update(); // Actualizar estado de Ken
 
         // Actualizar los medidores de vitalidad
-        medidorRyu.setCurrentValue(ryu.getHealth(), 100); // Suponiendo que la salud máxima es 100
-        medidorKen.setCurrentValue(ken.getHealth(), 100); // Suponiendo que la salud máxima es 100
+        medidorRyu.setCurrentValue(ryu.getHealth(), 100); // salud máxima es 100
+        medidorKen.setCurrentValue(ken.getHealth(), 100); 
 
         ventana.clear();
-        // Dibujar el fondo, personajes, medidores de vitalidad y demás elementos
+        
         ventana.draw(sprite);
         ryu.draw(ventana);
         ken.draw(ventana);
