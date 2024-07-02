@@ -1,75 +1,34 @@
 @startuml
 
 Class Ryu
-Class ChunLi
 Class Ken
-Class Zangief
-Class Mika
-Class Vega
-Class Birdie
-Class Bison
-Class Dhalsim
 
 Class MedidorDeVitalidad
-Class BarraDeEstadoDeConmoción
-Class EmblemasDeVictoria
-Class ContadorDeTiempo
-Class IconoDePersonaje
-Class BarraSuperCombo
 
 Class Hadoken
-Class Cuchillas
-Class Lata
 Class Fuego
-Class Silla
-Class Magia
 
 Class Arma
 Class Personaje{
-    +Kick
-    +Punch
-    +MoveRight
-    +MoveLeft
-    +MoveDown
-    +MoveUp
-}
-Class Menu{
-    +Pausar
-    +ConfiguracionDeVideo
-    +ConfiguracionDeAudio
-    +ListaDeCombinaciones
-    +Salir
+    +Kick()
+    +Punch()
+    +MoveRight()
+    +MoveLeft()
+    +MoveDown()
+    +MoveUp()
+    +receiveDamage(int damageAmount)
+    +getHealth() : float
 }
 
 Ryu --|> Personaje
-ChunLi --|> Personaje
 Ken --|> Personaje
-Zangief --|> Personaje
-Mika --|> Personaje
-Vega --|> Personaje
-Birdie --|> Personaje
-Bison --|> Personaje
-Dhalsim --|> Personaje
 
-Personaje *-- "1" MedidorDeVitalidad
-Personaje *-- "1" BarraDeEstadoDeConmoción
-Personaje *-- "1..*" EmblemasDeVictoria
-Personaje *-- "1" ContadorDeTiempo
-Personaje *-- "1" IconoDePersonaje
-Personaje *-- "1" BarraSuperCombo
-Personaje *-- "1" Menu
+Personaje "1" *-- "1" MedidorDeVitalidad
 
 Hadoken --|> Arma
-Cuchillas --|> Arma
-Lata --|> Arma
 Fuego --|> Arma
-Silla --|> Arma
-Magia --|> Arma
 
 Ken o-- "1" Hadoken
-Vega o-- "0..1" Cuchillas
-Birdie o-- "0..1" Lata
 Ryu o-- "0..1" Fuego
-Mika o-- "0..1" Silla
-Bison o-- "0..1" Magia
+
 @enduml
